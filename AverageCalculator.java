@@ -11,6 +11,13 @@ public class AverageCalculator {
         numbers.add(30);
         numbers.add(40);
         numbers.add(50);
+        
+        //remove number
+        numbers.remove(1);
+        
+        //update number
+        numbers.set(2, 70);
+        
 
         // Calculate the sum of the numbers
         int sum = 0;
